@@ -1,0 +1,2 @@
+Página onde serão Registrados os dados referentes ao Cliente e ao Produto.
+Basta selecionar um dos 2 Cards, inserir as informações e clicar em Cadastar.
