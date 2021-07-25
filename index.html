@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Desafio 2 Gama Academy</title>
+</head>
+
+<body>
+    <header>
+        <h1>lowprice.com </h1><br>
+        <p>Escolha o que deseja Cadastrar: </p>
+        
+    </header>
+
+<div class='container'> 
+    <div class='card1'>
+        <h1>Cadastrar Cliente</h1>
+
+        <div class='label-float'>
+            <input type='text' id='nome' paceholder='' required>
+            <label id="labelNome" for='nome'>Nome</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='number' id='cpf' paceholder='' required>
+            <label for='cpf'>CPF</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='text' id='endereco' paceholder='' required>
+            <label for='endereco'>Endereço</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='email' id='email' paceholder='' required>
+            <label for='email'>Email</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='password' id='senha' paceholder='' required>
+            <label for='senha'>Senha</label>
+        </div>
+
+        <div class='justify-center'>
+            <button onclick= 'cadastrar()'>Cadastrar</button>
+        </div>
+
+    </div>
+
+    <div class='card2'>
+        <h1>Cadastrar Produto</h1>
+
+        <div class='label-float'>
+            <input type='text' id='produto' paceholder='' required>
+            <label for='produto'>Produto</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='text' id='modelo' paceholder='' required>
+            <label for='modelo'>Modelo</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='text' id='marca' paceholder='' required>
+            <label for='marca'>Marca</label>
+        </div>
+
+        <div class='label-float'>
+            <input type='text' id='preco' paceholder='' required>
+            <label for='preco'>Preço</label>
+        </div>
+
+        <div class='justify-center'>
+            <button onclick='cadastrar2()'>Cadastrar</button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
